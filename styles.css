@@ -69,6 +69,7 @@ body {
 }
 
 .icon {
+  cursor: pointer;
   position: absolute;
   right: 0;
   left: 0;
@@ -87,6 +88,17 @@ body {
 .icon img {
   width: 20px;
   margin-top: 30%;
+}
+
+.icon:hover {
+  box-shadow: 1px -1px 16px 4px rgba(31, 255, 143, 0.75);
+  -webkit-box-shadow: 1px -1px 16px 4px rgba(31, 255, 143, 0.75);
+  -moz-box-shadow: 1px -1px 16px 4px rgba(31, 255, 143, 0.75);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 
 /* DESKTOP */
